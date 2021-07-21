@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin: 5px 0 0 0;
+}
+
+a{
+    color: #60acff;
+    text-align: center;
+}
+
+input{
+    padding: 5px 0 5px 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #60acff;
+}
+
+p{
+    font-size: 20px;
+}
+
+form{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    background: #60acff;
+    border: none;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.error{
+    border: 1px solid #f0130f;
+    text-align: center;
+    display: none;
+}
